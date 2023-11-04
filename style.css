@@ -1,0 +1,672 @@
+  *,
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+    
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+   
+}
+.awal {
+  display: flex;
+  margin-left: 60px;
+  /* background-color: #453E3B; */
+  gap: 10px;
+}
+.logo{
+  width: 80px;
+  height: 60px;
+  /* background-color: #f3ef00; */
+}
+/* .logo>img{
+  width: 100px;
+  height: 60px;
+  /* background-color: #f3ef00; */
+ 
+.akhir {
+  display: flex;
+  margin-right: 150px;
+}
+.akhir >p{
+ margin: 10px;
+ font-weight: 600;
+}
+.tengah >p{
+ margin: 1px;
+ font-weight: 600;
+}
+.tengah >i{
+display: none;
+}
+.aw{
+  margin-top: 19px;
+  font-weight: 600;
+}
+
+#sectionSelect{
+  text-decoration: none;
+  margin: 10px;
+  height: 27px;
+  width: 120px;
+  margin-top: 19px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all .2s;
+  text-align: center;
+  background-color: #e2e2e2;
+}
+#sectionSelect:active{
+  border: 1px rgba(0, 0, 255, 0.527);
+}
+#lanja
+
+.contener {
+    width: 100%;
+    height: 100vh;
+    
+  }
+  .wraper {
+    position: fixed;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -20px;
+    padding: 20px;
+    box-shadow: 0px 0px 50px 0;
+    /* border-radius: 0 0 50px -50px; */
+  }
+ 
+  .container1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+  }
+  .wraper2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+  .btnshop{
+    margin-top: 22px;
+    border: solid rgb(0, 153, 255);
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 0 50px 50px 50px;
+  }
+  .btnshop:hover{
+    border: solid rgb(0, 241, 20);
+transition: all .8s;
+color: rgb(0, 0, 0);
+  }
+  .gambar {
+    width: 280px;
+    margin-left: 50px;
+    height: 330px;
+    filter: drop-shadow(-11px 18px 4px #000000);
+    /* background-color: brown; */
+  }  
+
+  .gambar{
+    animation: animate 3s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            transform: translate(-11px,0);
+        }
+        50%{
+            transform: translate(-0px,-11px);
+        }
+        100%{
+            transform: translate(-11px,0);
+        }
+    }
+
+
+
+  .kon {
+    width: 100%;
+    height: 100vh;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wraperble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns:1fr 1fr  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    /* background-color: #E8BC0E; */
+    width: 80rem;
+    height: 30rem;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* border: 2px solid #000; */
+    font-size: 24px;
+    box-shadow: 0 50px 50px #757676;
+    color: #000;
+    overflow: hidden; /* Mengatasi gambar yang lebih besar dari grid */
+  }
+  
+  .grid-item img {
+    max-width: 100%; /* Batasi lebar gambar ke 100% ukuran kotak */
+    max-height: 100%; 
+    box-shadow: 0 50px 50px #757676;/* Batasi tinggi gambar ke 100% ukuran kotak */
+  }
+  
+  .pict-p1 {
+    grid-column: span 2 ; /* Mengatur kolom kotak 4 menjadi 2x1 (lebar 2 kolom) */
+    grid-row: span 2;    /* Mengatur baris kotak 4 menjadi 2x1 (tinggi 2 baris) */
+  }
+  .pict-p2 {
+    grid-column: span 2; /* Mengatur kolom kotak 4 menjadi 2x1 (lebar 2 kolom) */
+    grid-row: span 2; 
+     /* Mengatur baris kotak 4 menjadi 2x1 (tinggi 2 baris) */
+  }
+  .pict-p3 {
+    grid-column: span 1; /* Mengatur kolom kotak 4 menjadi 2x1 (lebar 2 kolom) */
+    grid-row: span 2;    /* Mengatur baris kotak 4 menjadi 2x1 (tinggi 2 baris) */
+  }
+  .pict-p4 {
+    grid-column: span 1;
+    grid-row: span 4;    
+  }
+  
+  .pict-p5 {
+    grid-column: span 2; 
+    grid-row: span 4;    
+  }
+  
+  .pict-p6 {
+    grid-column: span 2; /* Mengatur kolom kotak 6 menjadi 2x1 (lebar 2 kolom) */
+    grid-row: span 3;    /* Mengatur baris kotak 6 menjadi 1x1 (tinggi 1 baris) */
+  }
+  .pict-p8 {
+    grid-column: span 3; /* Mengatur kolom kotak 6 menjadi 2x1 (lebar 2 kolom) */
+    grid-row: span 2;    /* Mengatur baris kotak 6 menjadi 1x1 (tinggi 1 baris) */
+  }
+  
+  .pict-p1 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p2 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p3 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p4 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p5 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p6 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p7 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .pict-p8 > img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+
+
+
+
+
+
+
+/* #pp{
+    width:100% ;
+    height: 110vh;
+    /* background-color: coral; */
+/* } */
+.containero{
+    width: 100%;
+    height: 100vh;
+    /* background-color: darkmagenta; */
+}
+.wrapero{
+   align-items: center;
+   justify-content: center;
+
+    /* background-color: #E8BC0E; */
+    
+    transition: 0.5s;
+}
+
+.tombol-produck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    height:auto;
+    text-align: center;
+    /* background-color: #DCE0E1; */
+}
+header>h1{
+    margin-top: 100px;
+}
+header .shopping{
+    position: relative;
+    text-align: right;
+    margin-top: 112px;
+}
+.shopping>i{
+    font-size: 2.3rem;
+   left: 2%;
+    /* background-color: #E8BC0E; */
+
+}
+.shopping span{
+    background: red;
+    border-radius: 10px 10px 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 12px;
+    left: 87%;
+
+    padding: 3px 10px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the left */
+    margin-top: -60px;
+    padding: 60px 0;
+    gap: 20px;
+    margin-left: 200px;
+     /* Remove horizontal padding */
+}
+
+.list .item {
+    text-align: center;
+    background-color: #bdbdbd;
+    width: calc(17% - 10px); /* Adjust for spacing between columns */
+    margin-right: 20px; /* Add spacing between columns */
+    margin-bottom: 10px; /* Add spacing between rows */
+    height: 90%; /* Set height for two rows */
+    padding: 20px;
+
+    border-radius: 0 10px 10px 10px;
+    outline: 3px solid #ffffff;
+outline-offset: -9px;
+    
+box-shadow: -14px 13px 39px 2px #000000;
+    letter-spacing: 2px;
+}
+.list >.item:hover{
+  transition: all .3s;
+  outline: 3px solid #1eff00;
+  outline-offset: 6px;
+}
+
+.list .item img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.list .item .title{
+    font-weight: 600;
+}
+.list .item .price{
+    margin: 10px;
+}
+.list .item button{
+    background-color: #1C1F25;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    padding: 10px;
+}
+.card{
+    position: fixed;
+    top:0;
+    left: 100%;
+    width: 500px;
+    background-color: #382219;
+    height: 100vh;
+    transition: 0.5s;
+    
+}
+.active .card{
+    left: calc(100% - 500px);
+}
+.active .container{
+   transform: translateX(-200px);
+}
+.card h1{
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 20px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.card .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.card .checkOut div{
+    background-color: rgb(251, 255, 0);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.card .checkOut div:nth-child(4){
+    background-color: #1C1F25;
+    color: #fff;
+}
+.listCard li{
+    display: grid;
+    grid-template-columns: 67px repeat(3, 1fr);
+    color: #fff;
+    row-gap: 30px;
+    
+}
+.listCard li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top:10px ;
+}
+.listCard li img{
+    width: 100%;
+}
+.listCard li button{
+    background-color: rgb(251, 255, 0);
+    border: none;
+    width: 20px;
+}
+.listCard .count{
+    margin: 0 10px;
+}
+.ko{
+    width: 100%;
+    height: 100vh;
+    background-color: darkgreen;
+}
+
+.but{
+  background-color: rgb(251, 255, 0);
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+.delivery{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #e91e63; */
+    display: flex;
+   margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.containeri{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: -3rem;
+}
+.delivery-img>img{
+    width: 4rem;
+    height: 21rem;
+}
+.delivery-img,
+.app-img{
+    flex: 1 1 21rem;
+}
+.delivery-text,
+.app-text{
+    flex: 1 1 21rem;
+}
+.delivery-text h2,
+.app-text h2{
+    font-size: 1.2rem;
+    color: #24262b}
+.delivery-text p,
+.app-text p{
+    margin: 0.5rem 0.1rem;
+    color:#24262b ;
+    text-align: justify;
+}
+.delivery-img>img{
+    width: 88%;
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+.containere{
+	max-width: 1170px;
+	margin:auto;
+  background-color: #1eff00;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Mengatur jarak antara elemen-elemen */
+  }
+  
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #752424;
+    padding: 70px 0;
+   
+    width: 100%;
+
+}
+.footer-col {
+    width: 20%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column; /* Mengatur elemen-elemen dalam kolom */
+  }
+.footer-col h4{
+	font-size: 18px;
+	color: #ff0000;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000000;
+	text-decoration: none;
+	font-weight: 300;
+	color: #000000;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ff0000;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ff0000;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.maps{
+  height: 200;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    nav{
+    padding: 11px 4%;
+}
+#menu-icon{
+    display: initial;
+}
+nav .navbar{
+    position: absolute;
+    top: -500px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0 4px 4px rgb(14 55 54 / 14%);
+    border-top: 2px solid var(--main-color);
+    transition: 0.2s;
+    text-align: left;
+}
+.wraper.active{
+    top: 100%;
+}
+.navbar a{
+    padding: 1.5rem;
+    display: block;
+    color: var(--second-color);
+}
+.home-text span{
+    font-size: 0.9rem;
+}
+.home-text h1{
+    font-size: 2.4rem;
+}
+.home-text h2{
+    font-size: 1.2rem;
+}
+}
+
+/* @media (max-width: 500px) {
+    .wraper {
+        padding: 10px;
+    }
+    .akhir {
+        margin-right: 10px;
+    }
+    .container {
+        align-items: flex-start;
+    }
+    .gambar {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+    }
+    .list .item {
+        width: calc(50% - 10px);
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .list .item {
+        width: 100%;
+        margin-right: 0;
+    }
+} */
